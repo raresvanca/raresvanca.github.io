@@ -46,7 +46,7 @@
           title="Open LinkedIn profile"
         />
         <a
-          href="https://github.com/rares45"
+          href="https://github.com/raresvanca"
           target="_blank"
           rel="noopener noreferrer"
           class="icon-github icon"
