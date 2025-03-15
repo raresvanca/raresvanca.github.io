@@ -1,0 +1,19 @@
+@import 'tailwindcss';
+@import './icons/icon-font/css/portofolio.css';
+
+@theme {
+  --color-neutral: oklch(21.89% 0.0016 17.28);
+  --color-onNeutral: oklch(95.74% 0.0011 197.14);
+  --color-primary: oklch(76.61% 0.1539 50.75);
+  --color-secondary: oklch(50.81% 0.0459 161);
+  --font-display: 'Neuton', serif;
+  --font-title: 'Poppins', sans-serif;
+  --font-body: 'Metrophobic', sans-serif;
+  --breakpoint-xs: 24rem;
+}
+
+body {
+  background-color: var(--color-neutral);
+  color: var(--color-onNeutral);
+  font-family: var(--font-body);
+}
