@@ -31,7 +31,7 @@
       </div>
       <div class="mt-8 md:order-1 md:mt-0">
         <p class="text-center leading-5" title="All rights reserved to Rareș Andrei Vanca">
-          © {{ new Date().getFullYear() }} Rareș Andrei Vanca | Under GNU AGPLv3
+          © {{ new Date().getFullYear() }} Rareș Andrei Vanca | Distributed under CC BY-NC-ND 4.0
         </p>
       </div>
     </div>
