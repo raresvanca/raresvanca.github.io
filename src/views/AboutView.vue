@@ -10,12 +10,11 @@
               <div class="lg:pl-20">
                 <div class="max-w-xs px-2.5 max-lg:mx-auto lg:max-w-none">
                   <img
-                    alt=""
+                    alt="Headshot of Rareș Vanca"
                     loading="lazy"
                     width="800"
                     height="800"
                     decoding="async"
-                    data-nimg="1"
                     class="ring-primary shadow-primary/10 aspect-square rotate-3 rounded-2xl bg-stone-800 shadow-xl ring"
                     sizes="(min-width: 1024px) 32rem, 20rem"
                     srcset="
@@ -23,7 +22,6 @@
                       @/assets/images/portrait.webp      1200w
                     "
                     src="@/assets/images/portrait.webp"
-                    style="color: transparent"
                   />
                 </div>
               </div>
