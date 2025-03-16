@@ -1,12 +1,12 @@
 @font-face {
   font-family: 'portofolio';
-  src: url('../font/portofolio.eot?88633332');
+  src: url('../font/portofolio.eot?58159373');
   src:
-    url('../font/portofolio.eot?88633332#iefix') format('embedded-opentype'),
-    url('../font/portofolio.woff2?88633332') format('woff2'),
-    url('../font/portofolio.woff?88633332') format('woff'),
-    url('../font/portofolio.ttf?88633332') format('truetype'),
-    url('../font/portofolio.svg?88633332#portofolio') format('svg');
+    url('../font/portofolio.eot?58159373#iefix') format('embedded-opentype'),
+    url('../font/portofolio.woff2?58159373') format('woff2'),
+    url('../font/portofolio.woff?58159373') format('woff'),
+    url('../font/portofolio.ttf?58159373') format('truetype'),
+    url('../font/portofolio.svg?58159373#portofolio') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -16,7 +16,7 @@
 @media screen and (-webkit-min-device-pixel-ratio:0) {
   @font-face {
     font-family: 'portofolio';
-    src: url('../font/portofolio.svg?88633332#portofolio') format('svg');
+    src: url('../font/portofolio.svg?58159373#portofolio') format('svg');
   }
 }
 */
@@ -74,3 +74,6 @@
 .icon-code:before {
   content: '\e805';
 } /* '' */
+.icon-email:before {
+  content: '\e806';
+} /* '' */
