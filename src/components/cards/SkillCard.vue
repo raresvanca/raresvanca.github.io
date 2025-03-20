@@ -10,7 +10,12 @@
   >
     <div class="flex flex-row items-center gap-4">
       <img :src="iconUrl" alt="Skill icon" class="h-8 w-8" />
-      <h2 class="text-onNeutral font-title flex-grow text-xl">{{ props.skill.name }}</h2>
+      <h2
+        class="text-onNeutral font-title flex-grow overflow-hidden text-xl text-ellipsis whitespace-nowrap"
+        :title="skill.name"
+      >
+        {{ skill.name }}
+      </h2>
     </div>
     <div class="flex h-0 flex-row justify-center overflow-visible" v-if="hasContent">
       <div class="mt-2 h-4 w-4"><ExpandIcon /></div>
@@ -25,7 +30,7 @@
         v-show="isOpen"
         class="ring-primary/50 absolute top-[calc(100%-1rem)] right-0 left-0 z-10 flex flex-col gap-2 overflow-clip rounded-xl rounded-b-2xl bg-stone-800 p-4 ring duration-150"
       >
-        <h2 class="text-onNeutral font-title flex-grow text-xl">{{ props.skill.name }}</h2>
+        <h2 class="text-onNeutral font-title flex-grow text-xl">{{ skill.name }}</h2>
         <div v-if="mastered">
           <h3>Mastered</h3>
           <ul class="text-onNeutral/70 list-inside list-disc">
