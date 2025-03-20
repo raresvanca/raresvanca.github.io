@@ -28,6 +28,12 @@ export const language_skills: Skill[] = [
     projects: ['Polybius', 'Rust Hangman'],
   },
   {
+    name: 'Go',
+    icon: 'go.svg',
+    mastered_subskills: ['Concurrency', 'APIs', 'Modules'],
+    learning_subskills: ['Advanced Concurrency Patterns'],
+  },
+  {
     name: 'TypeScript',
     icon: 'typescript.svg',
     projects: ['My Portfolio', '2-5-perceivers.github.io'],
