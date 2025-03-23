@@ -27,7 +27,9 @@
                   <li>Web Development</li>
                   <li>C/C++</li>
                   <li>Git & GitHub</li>
-                  <li>More</li>
+                  <li>
+                    <RouterLink to="/skills">See more<i class="icon-chevron-right" /></RouterLink>
+                  </li>
                 </ul>
               </div>
             </div>
@@ -107,7 +109,7 @@
                   </li>
                   <li>
                     <h3>Betalk</h3>
-                    <p>Kotlin, Python, Flutter</p>
+                    <p>Kotlin, Rust, Python, Flutter</p>
                   </li>
                   <li>
                     <h3>Warpinator Android</h3>

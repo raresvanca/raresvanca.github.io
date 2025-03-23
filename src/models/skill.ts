@@ -25,7 +25,7 @@ export const language_skills: Skill[] = [
     icon: 'rust.svg',
     mastered_subskills: ['Ownership', 'Error Handling', 'Testing', 'Cargo'],
     learning_subskills: ['Async/Await', 'Tokyo'],
-    projects: ['Polybius', 'Rust Hangman'],
+    projects: ['Polybius', 'BeTalk', 'Rust Hangman'],
   },
   {
     name: 'Go',

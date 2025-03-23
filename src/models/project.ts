@@ -49,8 +49,8 @@ export const projects: Project[] = [
   {
     title: 'BeTalk',
     description:
-      'A real-time chat application utilizing sockets. It features various client and server implementations, developed with Flutter for the frontend, and Python and Kotlin for the backend.',
-    skills: ['Flutter', 'Python', 'Kotlin', 'Dart', 'Networking'],
+      'A real-time chat application utilizing sockets. It features various client and server implementations, developed with Flutter for the frontend, and Rust and Kotlin for the backend.',
+    skills: ['Flutter', 'Rust', 'Python', 'Kotlin', 'Dart', 'Networking'],
     linkCode: 'https://github.com/2-5-perceivers/betalk',
     tags: [ProjectTags.OpenSource, ProjectTags.Flutter, ProjectTags.Colaboration],
   },
