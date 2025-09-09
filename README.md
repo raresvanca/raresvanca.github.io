@@ -13,3 +13,5 @@ npm run dev
 ```sh
 npm run build
 ```
+
+All logos fall under their respective licenses. Please refer to the individual projects for more information.

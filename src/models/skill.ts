@@ -43,6 +43,11 @@ export const language_skills: Skill[] = [
     icon: 'kotlin.svg',
     projects: ['BeTalk', 'Warpinator Android'],
   },
+  {
+    name: 'Python',
+    icon: 'python.svg',
+    projects: ['ML Song Genre Classifier'],
+  },
 ]
 
 export const framework_skills: Skill[] = [
@@ -63,6 +68,12 @@ export const framework_skills: Skill[] = [
     name: 'Fresh',
     icon: 'fresh.svg',
   },
+  {
+    name: 'PyTorch',
+    icon: 'pytorch.svg',
+    learning_subskills: ['Model types', 'Training', 'Deployment'],
+    projects: ['ML Song Genre Classifier'],
+  },
 ]
 
 export const platforms_skills: Skill[] = [
@@ -82,6 +93,13 @@ export const platforms_skills: Skill[] = [
 ]
 
 export const technologies_skills: Skill[] = [
+  {
+    name: 'Machine Learning',
+    icon: 'ml.svg',
+    mastered_subskills: ['Supervised Learning', 'CNNs'],
+    learning_subskills: ['Unsupervised Learning', 'Model Optimization'],
+    projects: ['ML Song Genre Classifier'],
+  },
   {
     name: 'REST APIs',
     icon: 'rest.svg',
