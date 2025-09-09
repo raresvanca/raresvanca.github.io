@@ -13,22 +13,22 @@
       >
         <!-- Grid -->
         <div class="text-onNeutral/80 grid gap-4 sm:mt-16 lg:grid-cols-3 lg:grid-rows-2">
-          <!-- Tehnical skills card -->
+          <!-- Experience skills card -->
           <div class="relative">
             <div class="base-grid-container-background lg:rounded-ss-4xl!" />
             <div class="relative flex h-full flex-col">
               <div class="px-8 pt-8 pb-3 sm:px-10 sm:pt-10 sm:pb-0">
-                <RouterLink to="/skills" class="base-grid-container-title">
-                  <span>Tehnical Skills</span>
+                <RouterLink to="/experience" class="base-grid-container-title">
+                  <span>Experience</span>
                   <i class="icon-chevron-right" />
                 </RouterLink>
                 <ul class="base-grid-container-content">
-                  <li>Flutter</li>
-                  <li>Web Development</li>
-                  <li>C/C++</li>
-                  <li>Git & GitHub</li>
                   <li>
-                    <RouterLink to="/skills">See more<i class="icon-chevron-right" /></RouterLink>
+                    Full Stack Software Engineer | EUMatrix | Remote (Belgium) | September
+                    2025-Present
+                  </li>
+                  <li>
+                    Data Engineering Intern | EUMatrix | Remote (Belgium) | June 2025-September 2025
                   </li>
                 </ul>
               </div>
@@ -44,11 +44,11 @@
                 <ul class="base-grid-container-content">
                   <li>
                     Faculty of Cybernetics, Statistics and Economic Informatics, Bucharest, Romania
-                    - 2024 - 2027 - Bachelor's Degree in Computer Science
+                    | 2024-2027 | Bachelor's Degree in Computer Science
                   </li>
                   <li>
-                    Alexandru Ioan Cuza Highschool, Bucharest, Romania - 2020 - 2024 - Mathematics
-                    and Informatics
+                    Alexandru Ioan Cuza Highschool, Bucharest, Romania | 2020-2024 | Mathematics and
+                    Informatics
                   </li>
                 </ul>
               </div>
@@ -60,12 +60,18 @@
             <div class="base-grid-container-background lg:rounded-es-4xl!" />
             <div class="relative flex h-full flex-col">
               <div class="px-8 pt-8 pb-3 sm:px-10 sm:pt-10 sm:pb-0">
-                <p class="base-grid-container-title">Soft Skills</p>
+                <RouterLink to="/skills" class="base-grid-container-title">
+                  <span>Skills</span>
+                  <i class="icon-chevron-right" />
+                </RouterLink>
                 <ul class="base-grid-container-content">
-                  <li>Communication</li>
-                  <li>Teamwork</li>
-                  <li>Problem-solving</li>
-                  <li>Time Management</li>
+                  <li>Flutter</li>
+                  <li>Web Development</li>
+                  <li>C/C++</li>
+                  <li>Git & GitHub</li>
+                  <li>
+                    <RouterLink to="/skills">See more<i class="icon-chevron-right" /></RouterLink>
+                  </li>
                 </ul>
               </div>
             </div>
@@ -100,12 +106,12 @@
                     <p>Flutter, Dart, Git</p>
                   </li>
                   <li>
-                    <h3>Polybius</h3>
-                    <p>Rust, HTML, CSS, Tailwind</p>
+                    <h3>ML Song genre classifier</h3>
+                    <p>Python, PyTorch, LibTorch, C++</p>
                   </li>
                   <li>
-                    <h3>2-5-perceivers.github.io</h3>
-                    <p>Vue, HTML, TypeScript</p>
+                    <h3>Polybius</h3>
+                    <p>Rust, HTML, CSS, Tailwind</p>
                   </li>
                   <li>
                     <h3>Betalk</h3>
@@ -116,8 +122,8 @@
                     <p>Android, Kotlin, Java</p>
                   </li>
                   <li>
-                    <h3>Rust Hangman</h3>
-                    <p>Rust, RayLib</p>
+                    <h3>Qube2Space</h3>
+                    <p>C++, Embedded Development</p>
                   </li>
                 </ul>
               </div>
