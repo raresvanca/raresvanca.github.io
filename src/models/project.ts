@@ -18,6 +18,14 @@ export interface Project {
 
 export const projects: Project[] = [
   {
+    title: 'ML Song Genre Classifier',
+    description:
+      'A fast multilayer CNN model for song classification that achieved 95% accuracy on the test dataset. The goal is to shrink it so it can be deployed in real-time on embedded devices.',
+    skills: ['Python', 'PyTorch', 'C++', 'ML'],
+    tags: [ProjectTags.OpenSource],
+    linkCode: 'https://github.com/raresvanca/song-ML-classifier',
+  },
+  {
     title: 'Polybius',
     description:
       'A blazing-fast smart password generator built with Rust, featuring a sleek and secure website also developed in Rust. Ideal for creating strong, unique passwords effortlessly.',
@@ -100,6 +108,14 @@ export const projects: Project[] = [
     skills: ['Android', 'Kotlin', 'Java', 'GitHub'],
     linkCode: 'https://github.com/slowscript/warpinator-android',
     tags: [ProjectTags.OpenSource, ProjectTags.Colaboration],
+  },
+  {
+    title: 'Warpinator Flutter',
+    description:
+      'Reimplementation of the Warpinator Android app in Flutter (ongoing) to provide native interfaces across all supported platforms and deliver a seamless, consistent user experience.',
+    skills: ['Flutter', 'Dart'],
+    linkCode: 'https://github.com/raresvanca/warpinator-flutter',
+    tags: [ProjectTags.OpenSource, ProjectTags.Flutter],
   },
   {
     title: 'Qube2Space',
