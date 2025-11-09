@@ -4,7 +4,7 @@ export enum ProjectTags {
   Flutter,
   Rust,
   Web,
-  Colaboration,
+  Collaboration,
 }
 
 export interface Project {
@@ -24,6 +24,14 @@ export const projects: Project[] = [
     skills: ['Python', 'PyTorch', 'C++', 'ML'],
     tags: [ProjectTags.OpenSource],
     linkCode: 'https://github.com/raresvanca/song-ML-classifier',
+  },
+  {
+    title: 'WayCast',
+    description:
+      'A modern Wayland screen casting application that streams your desktop or selected windows to web browsers with minimal latency, designed for creative workflows.',
+    skills: ['Python', 'GTK', 'ffmpeg'],
+    linkCode: 'https://github.com/2-5-perceivers/waycast',
+    tags: [ProjectTags.OpenSource],
   },
   {
     title: 'Polybius',
@@ -60,7 +68,7 @@ export const projects: Project[] = [
       'A real-time chat application utilizing sockets. It features various client and server implementations, developed with Flutter for the frontend, and Rust and Kotlin for the backend.',
     skills: ['Flutter', 'Rust', 'Python', 'Kotlin', 'Dart', 'Networking'],
     linkCode: 'https://github.com/2-5-perceivers/betalk',
-    tags: [ProjectTags.OpenSource, ProjectTags.Flutter, ProjectTags.Colaboration],
+    tags: [ProjectTags.OpenSource, ProjectTags.Flutter, ProjectTags.Collaboration],
   },
   {
     title: 'flutter-master-detail-flow',
@@ -70,7 +78,7 @@ export const projects: Project[] = [
     linkMore: 'https://pub.dev/packages/master_detail_flow',
     linkCode: 'https://github.com/2-5-perceivers/flutter-master-detail-flow',
 
-    tags: [ProjectTags.OpenSource, ProjectTags.Flutter, ProjectTags.Colaboration],
+    tags: [ProjectTags.OpenSource, ProjectTags.Flutter, ProjectTags.Collaboration],
   },
   {
     title: 'share_plus_dialog',
@@ -107,7 +115,7 @@ export const projects: Project[] = [
       'An Android app that allows users to share files across devices on the same network. It is a port of the Linux Mint application of the same name. I worked on the UI of the app.',
     skills: ['Android', 'Kotlin', 'Java', 'GitHub'],
     linkCode: 'https://github.com/slowscript/warpinator-android',
-    tags: [ProjectTags.OpenSource, ProjectTags.Colaboration],
+    tags: [ProjectTags.OpenSource, ProjectTags.Collaboration],
   },
   {
     title: 'Warpinator Flutter',

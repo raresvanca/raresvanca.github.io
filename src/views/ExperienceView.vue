@@ -32,7 +32,7 @@ class Experience {
     public title: string,
     public description: string,
     public company: string,
-    public period: string
+    public period: string,
   ) {}
 }
 
@@ -41,14 +41,14 @@ const experiences: Experience[] = [
     'Full Stack Software Engineer',
     'Engineered end-to-end data-analysis and AI solutions that convert raw data into actionable insights for internal teams and clients, overseeing database integrity, secure access controls, real-time data flows, automated deployment pipelines, and delivering robust analytics modules.',
     'EUMatrix • Remote (Belgium)',
-    'Sep 2025-Present'
+    'Sep 2025-Nov 2025',
   ),
   new Experience(
     'Data Engineer Intern',
     'Developed foundational data engineering skills through practical application on data-related tasks. Applied learned concepts to real-world challenges, which included the development of basic data pipelines to process and structure information. This role provided valuable insight into the principles of data handling and workflow automation.',
     'EUMatrix • Remote (Belgium)',
-    'Jun 2025-Sep 2025'
-  )
+    'Jun 2025-Sep 2025',
+  ),
 ]
 </script>
 
