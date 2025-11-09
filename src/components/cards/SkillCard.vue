@@ -63,8 +63,9 @@
 <script setup lang="ts">
 import { type Skill } from '@/models/skill.ts'
 import { getIcon } from '@/utils/iconLoader'
-import { computed, ref } from 'vue'
+import { computed } from 'vue'
 import { ExpandIcon } from '@/components/icons'
+import { openCardState } from '@/state/skillCardState.ts'
 
 const props = defineProps<{
   skill: Skill
@@ -88,7 +89,18 @@ const projects = computed(
 const hasContent = computed(() => mastered.value || learning.value || projects.value)
 
 // State for open or closed menu
-const isOpen = ref(false)
+const isOpen = computed({
+  get() {
+    return openCardState.openCardID === props.skill.name
+  },
+  set(value: boolean) {
+    if (value) {
+      openCardState.openCardID = props.skill.name
+    } else {
+      openCardState.openCardID = null
+    }
+  },
+})
 
 function toggleOpen() {
   if (!hasContent.value) return
