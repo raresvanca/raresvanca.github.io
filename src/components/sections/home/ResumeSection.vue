@@ -25,7 +25,7 @@
                 <ul class="base-grid-container-content">
                   <li>
                     Full Stack Software Engineer | EUMatrix | Remote (Belgium) | September
-                    2025-Present
+                    2025-November 2025
                   </li>
                   <li>
                     Data Engineering Intern | EUMatrix | Remote (Belgium) | June 2025-September 2025
@@ -44,7 +44,7 @@
                 <ul class="base-grid-container-content">
                   <li>
                     Faculty of Cybernetics, Statistics and Economic Informatics, Bucharest, Romania
-                    | 2024-2027 | Bachelor's Degree in Computer Science
+                    | 2024-2027 | Bachelor's Degree in Computer Science & Economics
                   </li>
                   <li>
                     Alexandru Ioan Cuza Highschool, Bucharest, Romania | 2020-2024 | Mathematics and
