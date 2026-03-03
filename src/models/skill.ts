@@ -10,22 +10,28 @@ export const language_skills: Skill[] = [
     name: 'C/C++',
     icon: 'cpp.svg',
     mastered_subskills: ['Dynamic Memory', 'Pointers', 'Data Structures'],
-    learning_subskills: ['Threading', 'Build Systems'],
+    learning_subskills: ['Build Systems'],
     projects: ['Qube2Space'],
+  },
+  {
+    name: 'Rust',
+    icon: 'rust.svg',
+    mastered_subskills: ['Ownership', 'Error Handling', 'Async/Await'],
+    learning_subskills: ['Embedded'],
+    projects: ['Polybius', 'BeTalk', 'Rust Hangman'],
+  },
+  {
+    name: 'Kotlin',
+    icon: 'kotlin.svg',
+    mastered_subskills: ['Coroutines', 'Android Development'],
+    projects: ['BeTalk', 'Warpinator Android'],
   },
   {
     name: 'Dart',
     icon: 'dart.svg',
     mastered_subskills: ['Null Safety', 'OOP', 'Functional Programming', 'Streams'],
-    learning_subskills: ['Testing'],
+    learning_subskills: ['FFI'],
     projects: ['BeTalk', 'flutter-master-detail-flow'],
-  },
-  {
-    name: 'Rust',
-    icon: 'rust.svg',
-    mastered_subskills: ['Ownership', 'Error Handling', 'Testing', 'Cargo'],
-    learning_subskills: ['Async/Await', 'Tokyo'],
-    projects: ['Polybius', 'BeTalk', 'Rust Hangman'],
   },
   {
     name: 'Go',
@@ -39,11 +45,6 @@ export const language_skills: Skill[] = [
     projects: ['My Portfolio', '2-5-perceivers.github.io'],
   },
   {
-    name: 'Kotlin',
-    icon: 'kotlin.svg',
-    projects: ['BeTalk', 'Warpinator Android'],
-  },
-  {
     name: 'Python',
     icon: 'python.svg',
     projects: ['ML Song Genre Classifier'],
@@ -54,8 +55,7 @@ export const framework_skills: Skill[] = [
   {
     name: 'Flutter',
     icon: 'flutter.svg',
-    mastered_subskills: ['Material Design', 'Themeing', 'State Management', 'Networking'],
-    learning_subskills: ['Animations', 'Custom Paint'],
+    mastered_subskills: ['Animations', 'State Management', 'Networking'],
     projects: ['Flutter packages', 'BeTalk'],
   },
   {
@@ -87,7 +87,7 @@ export const platforms_skills: Skill[] = [
   {
     name: 'Android Development',
     icon: 'android.svg',
-    learning_subskills: ['Jetpack Compose', 'Testing'],
+    mastered_subskills: ['Jetpack Compose', 'Testing'],
     projects: ['Warpinator Android', 'Petrichor'],
   },
 ]
@@ -108,6 +108,7 @@ export const technologies_skills: Skill[] = [
   {
     name: 'gRPC',
     icon: 'grpc.svg',
+    projects: ['Warpinator Android', 'Warpinator Flutter'],
   },
   {
     name: 'Databases',

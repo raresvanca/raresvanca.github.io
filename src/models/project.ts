@@ -18,6 +18,22 @@ export interface Project {
 
 export const projects: Project[] = [
   {
+    title: 'Warpinator Android',
+    description:
+      'An Android app that allows users to share files across devices on the same network. It is a port of the Linux Mint application of the same name. I worked on the UI of the app.',
+    skills: ['Android', 'Kotlin', 'Compose', 'gRPC'],
+    linkCode: 'https://github.com/slowscript/warpinator-android',
+    tags: [ProjectTags.OpenSource, ProjectTags.Collaboration],
+  },
+  {
+    title: 'Warpinator Flutter',
+    description:
+      'Implementation of the Warpinator app in Flutter (ongoing) to provide native interfaces across all desktop platforms and deliver a seamless, consistent user experience.',
+    skills: ['Flutter', 'Dart', 'gRPC'],
+    linkCode: 'https://github.com/raresvanca/warpinator-flutter',
+    tags: [ProjectTags.OpenSource, ProjectTags.Flutter],
+  },
+  {
     title: 'ML Song Genre Classifier',
     description:
       'A fast multilayer CNN model for song classification that achieved 95% accuracy on the test dataset. The goal is to shrink it so it can be deployed in real-time on embedded devices.',
@@ -107,22 +123,6 @@ export const projects: Project[] = [
     skills: ['Flutter', 'Dart'],
     linkMore: 'https://pub.dev/packages/expand',
     linkCode: 'https://github.com/2-5-perceivers/expand',
-    tags: [ProjectTags.OpenSource, ProjectTags.Flutter],
-  },
-  {
-    title: 'Warpinator Android',
-    description:
-      'An Android app that allows users to share files across devices on the same network. It is a port of the Linux Mint application of the same name. I worked on the UI of the app.',
-    skills: ['Android', 'Kotlin', 'Java', 'GitHub'],
-    linkCode: 'https://github.com/slowscript/warpinator-android',
-    tags: [ProjectTags.OpenSource, ProjectTags.Collaboration],
-  },
-  {
-    title: 'Warpinator Flutter',
-    description:
-      'Reimplementation of the Warpinator Android app in Flutter (ongoing) to provide native interfaces across all supported platforms and deliver a seamless, consistent user experience.',
-    skills: ['Flutter', 'Dart'],
-    linkCode: 'https://github.com/raresvanca/warpinator-flutter',
     tags: [ProjectTags.OpenSource, ProjectTags.Flutter],
   },
   {
