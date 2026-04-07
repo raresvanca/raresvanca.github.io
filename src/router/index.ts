@@ -58,14 +58,6 @@ const router = createRouter({
   ],
 })
 
-/*
-  { name: 'Home', path: '/' },
-  { name: 'About', path: '/about' },
-  { name: 'Projects', path: '/projects' },
-  { name: 'Skills', path: '/skills' },
-  { name: 'Articles', path: '/articles' },
-*/
-
 router.afterEach((to, _) => {
   nextTick(() => {
     document.title = to.meta.title ? `Rareș Andrei Vanca • ${to.meta.title}` : 'Rareș Andrei Vanca'

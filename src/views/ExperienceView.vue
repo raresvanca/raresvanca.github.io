@@ -38,7 +38,7 @@ class Experience {
 
 const experiences: Experience[] = [
   new Experience(
-    'Full Stack Software Engineer',
+    'Software Engineer',
     'Engineered end-to-end data-analysis and AI solutions that convert raw data into actionable insights for internal teams and clients, overseeing database integrity, secure access controls, real-time data flows, automated deployment pipelines, and delivering robust analytics modules.',
     'EUMatrix • Remote (Belgium)',
     'Sep 2025-Nov 2025',

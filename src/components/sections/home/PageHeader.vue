@@ -12,7 +12,7 @@
       >
         <h2 class="text-onNeutral/50 font-title xs:text-xl text-lg font-light lg:text-2xl">
           <!-- Make bullet unselectable so that selecting and copying gives only my name -->
-          Rares Andrei<span class="select-none"> •</span> Vanca
+          Rareș Andrei<span class="select-none"> •</span> Vanca
         </h2>
         <h1
           class="font-display xs:text-6xl text-onNeutral/80 pt-2 pb-4 text-5xl font-extralight sm:pt-4 sm:pb-8 sm:text-7xl lg:text-8xl"
@@ -23,7 +23,7 @@
         </h1>
         <!-- The height is set to 0 on bigger devices so that the main title is verticaly aligned -->
         <p class="text-onNeutral/60 max-w-80 overflow-visible text-justify sm:h-0 md:max-w-md">
-          I'm a full-stack developer, designer and photographer based in Bucharest, Romania. I'm
+          I'm a software engineer, designer and photographer based in Bucharest, Romania. I'm
           passionate about creating simple, safe and functional code. With a separate passion for
           photography and design.
         </p>

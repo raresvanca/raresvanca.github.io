@@ -32,8 +32,8 @@ import {
 
 const skills = [
   ...language_skills,
-  ...framework_skills,
   ...platforms_skills,
+  ...framework_skills,
   ...technologies_skills,
 ]
 </script>

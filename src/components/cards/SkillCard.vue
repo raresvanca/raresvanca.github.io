@@ -28,7 +28,7 @@
     >
       <div
         v-show="isOpen"
-        class="ring-primary/50 absolute top-[calc(100%-1rem)] right-0 left-0 z-10 flex flex-col gap-2 overflow-clip rounded-xl rounded-b-2xl bg-stone-800 p-4 ring duration-150"
+        class="ring-primary/50 absolute top-[calc(100%-1rem)] right-0 left-0 z-10 flex flex-col gap-2 overflow-clip rounded-xl rounded-b-2xl bg-stone-800 p-4 shadow-lg ring shadow-black/80 duration-150"
       >
         <h2 class="text-onNeutral font-title flex-grow text-xl">{{ skill.name }}</h2>
         <div v-if="mastered">

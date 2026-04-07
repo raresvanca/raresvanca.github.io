@@ -14,7 +14,7 @@
                 <div>
                   <nav class="pointer-events-auto hidden md:block">
                     <ul
-                      class="flex rounded-full bg-stone-800/70 px-3 text-sm font-medium text-stone-200 shadow-lg ring-1 shadow-stone-800/5 ring-white/10 backdrop-blur-sm"
+                      class="flex rounded-full bg-stone-800/60 px-3 text-sm font-medium text-stone-200 shadow-lg ring-1 shadow-stone-800/5 ring-white/10 backdrop-blur-sm"
                     >
                       <li v-for="(link, index) in navLinks" :key="index">
                         <RouterLink class="nav-bar-link" :to="link.path">

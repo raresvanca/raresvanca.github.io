@@ -24,8 +24,7 @@
                 </RouterLink>
                 <ul class="base-grid-container-content">
                   <li>
-                    Full Stack Software Engineer | EUMatrix | Remote (Belgium) | September
-                    2025-November 2025
+                    Software Engineer | EUMatrix | Remote (Belgium) | September 2025-November 2025
                   </li>
                   <li>
                     Data Engineering Intern | EUMatrix | Remote (Belgium) | June 2025-September 2025
@@ -65,10 +64,10 @@
                   <i class="icon-chevron-right" />
                 </RouterLink>
                 <ul class="base-grid-container-content">
-                  <li>Flutter</li>
-                  <li>Web Development</li>
+                  <li>Rust</li>
                   <li>C/C++</li>
-                  <li>Git & GitHub</li>
+                  <li>Embedded</li>
+                  <li>App development</li>
                   <li>
                     <RouterLink to="/skills">See more<i class="icon-chevron-right" /></RouterLink>
                   </li>
@@ -102,6 +101,10 @@
                 </RouterLink>
                 <ul class="base-grid-container-content base-grid-container-content-projects">
                   <li>
+                    <h3>Warpinator Projects</h3>
+                    <p>Rust, Tauri, Android, Kotlin, Compose</p>
+                  </li>
+                  <li>
                     <h3>Flutter Packages</h3>
                     <p>Flutter, Dart, Git</p>
                   </li>
@@ -116,10 +119,6 @@
                   <li>
                     <h3>Betalk</h3>
                     <p>Kotlin, Rust, Python, Flutter</p>
-                  </li>
-                  <li>
-                    <h3>Warpinator Android</h3>
-                    <p>Android, Kotlin, Java</p>
                   </li>
                   <li>
                     <h3>Qube2Space</h3>

@@ -1,6 +1,7 @@
 export enum ProjectTags {
   OpenSource,
   ClosedSource,
+  Warpinator,
   Flutter,
   Rust,
   Web,
@@ -18,20 +19,28 @@ export interface Project {
 
 export const projects: Project[] = [
   {
-    title: 'Warpinator Android',
+    title: 'Warpinator Lib',
     description:
-      'An Android app that allows users to share files across devices on the same network. It is a port of the Linux Mint application of the same name. I worked on the UI of the app.',
-    skills: ['Android', 'Kotlin', 'Compose', 'gRPC'],
-    linkCode: 'https://github.com/slowscript/warpinator-android',
-    tags: [ProjectTags.OpenSource, ProjectTags.Collaboration],
+      'A cross-platform library for file sharing across devices on the same network. It is a port in Rust of the Linux Mint application of the same name.',
+    skills: ['Rust', 'Networking', 'gRPC'],
+    linkCode: 'https://github.com/2-5-perceivers/warpinator-lib',
+    tags: [ProjectTags.OpenSource, ProjectTags.Rust, ProjectTags.Warpinator],
   },
   {
-    title: 'Warpinator Flutter',
+    title: 'Warpinator Tauri',
     description:
-      'Implementation of the Warpinator app in Flutter (ongoing) to provide native interfaces across all desktop platforms and deliver a seamless, consistent user experience.',
-    skills: ['Flutter', 'Dart', 'gRPC'],
-    linkCode: 'https://github.com/raresvanca/warpinator-flutter',
-    tags: [ProjectTags.OpenSource, ProjectTags.Flutter],
+      "A cross-platform desktop application for file sharing across devices on the same network. It's a modern frontend for the Warpinator Lib, built with Tauri and Shadcn, designed to provide a sleek and user-friendly experience.",
+    skills: ['Rust', 'Tauri', 'React'],
+    linkCode: 'https://github.com/2-5-perceivers/warpinator-tauri',
+    tags: [ProjectTags.OpenSource, ProjectTags.Rust, ProjectTags.Warpinator],
+  },
+  {
+    title: 'Warpinator Android',
+    description:
+      'The Android client for the Warpinator file sharing application. My fork is a complete rewrite in Kotlin, utilizing modern Android development practices and libraries to provide a seamless and efficient user experience.',
+    skills: ['Android', 'Kotlin', 'Compose', 'gRPC'],
+    linkCode: 'https://github.com/raresvanca/warpinator-android',
+    tags: [ProjectTags.OpenSource, ProjectTags.Collaboration, ProjectTags.Warpinator],
   },
   {
     title: 'ML Song Genre Classifier',
@@ -146,21 +155,6 @@ export const projects: Project[] = [
       'A reinterpretation of the classic Flappy Bird game, developed in Godot. It features a sleek design and smooth gameplay, providing an engaging and challenging experience.',
     skills: ['Godot', 'Game Development'],
     linkMore: 'https://adorkw.itch.io/flappy',
-    tags: [ProjectTags.ClosedSource],
-  },
-  {
-    title: 'Rust Hangman',
-    description:
-      'A project for school that I overcomplicated by implementing a full-fledged Hangman game in Rust and Raylib',
-    skills: ['Rust', 'Raylib', 'Game Development'],
-    linkCode: 'https://github.com/2-5-perceivers/hangman',
-    tags: [ProjectTags.OpenSource, ProjectTags.Rust],
-  },
-  {
-    title: 'Petrichor',
-    description: 'A backgrounds app for Android that I developed in Flutter as freelance work',
-    skills: ['Flutter', 'Android'],
-    linkMore: 'https://play.google.com/store/apps/details?id=com.petrichor',
     tags: [ProjectTags.ClosedSource],
   },
 ]
