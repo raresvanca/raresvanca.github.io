@@ -37,9 +37,9 @@ export const projects: Project[] = [
   {
     title: 'Warpinator Android',
     description:
-      'The Android client for the Warpinator file sharing application. My fork is a complete rewrite in Kotlin, utilizing modern Android development practices and libraries to provide a seamless and efficient user experience.',
-    skills: ['Android', 'Kotlin', 'Compose', 'gRPC'],
-    linkCode: 'https://github.com/raresvanca/warpinator-android',
+      'The Android client for the Warpinator file sharing application. My fork is a rewrite in Kotlin, utilizing modern Android development practices, while utilizing a FFI wrapper around the Warpinator Lib to maximize code reuse and performance.',
+    skills: ['Android', 'Kotlin', 'Compose', 'Rust FFI'],
+    linkCode: 'https://github.com/2-5-perceivers/warpinator-android',
     tags: [ProjectTags.OpenSource, ProjectTags.Collaboration, ProjectTags.Warpinator],
   },
   {
